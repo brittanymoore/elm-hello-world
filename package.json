@@ -1,0 +1,30 @@
+{
+    "name": "elm-hello-world",
+    "version": "1.0.0",
+    "description": "Seed Project for Angular",
+    "scripts": {
+        "build": "webpack --config ./config/webpack.dev.js --progress",
+        "start": "webpack-dev-server --config ./config/webpack.dev.js --progress",
+        "build:prod": "webpack --config ./config/webpack.prod.js --progress",
+        "start:prod": "webpack-dev-server --config ./config/webpack.prod.js --progress"
+    },
+    "author": "Brittany Moore <brittanymoore>",
+    "license": "MIT",
+    "dependencies": {
+        "elm": "0.18.0"
+    },
+    "devDependencies": {
+        "elm-webpack-loader": "4.3.0",
+        "webpack": "2.3.2",
+        "webpack-dev-server": "2.4.2",
+        "html-webpack-plugin": "2.28.0",
+        "css-loader": "0.27.3",
+        "exports-loader": "0.6.3",
+        "less": "2.7.2",
+        "less-loader": "4.0.3"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/brittanymoore/elm-hello-world.git"
+    }
+}
